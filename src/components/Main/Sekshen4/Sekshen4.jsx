@@ -80,6 +80,7 @@ export default function Sekshen4() {
           width="50%"
           placeholder="Search users..."
           value={search}
+          color={'black'}
           onChange={(e) => setSearch(e.target.value)}
         />
       </Box>
@@ -100,6 +101,7 @@ export default function Sekshen4() {
                 <InputGroup startElement={<LuUser />}>
                   <Input
                     value={name}
+                    color={"black"}
                     onChange={(e) => setName(e.target.value)}
                     placeholder="Username"
                   />
@@ -182,6 +184,7 @@ export default function Sekshen4() {
               <Dialog.Body>
                 <InputGroup startElement={<LuUser />}>
                   <Input
+                  color={"black"}
                     value={nameE}
                     onChange={(e) => setNameE(e.target.value)}
                   />
